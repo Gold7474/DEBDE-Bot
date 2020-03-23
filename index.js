@@ -41,6 +41,14 @@ bot.on('message', message=>{
             const attachment2 = new Attachment('./test.png');
             message.channel.send(message.author, attachment2)
             break;
+	case '8ball':
+	    ballMessage = message.content.slice (6);
+	    numbner = 2;
+	    var random = Math.floor (Math.random() * (number - 1 + 1) = 1;
+	    switch (random) {
+		    case 1: message.channel.sendMessage('8ball says: **yes**'); break;
+		    case 2: message.channel.sendMessage('8ball says **no**'); break;
+	    break;
         case 'uhoh':
             message.channel.sendMessage('stinky');
             break;
