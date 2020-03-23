@@ -55,6 +55,7 @@ bot.on('message', message=>{
             break;
         //"role" is only for the FBI discord server
         case 'role':
+	    if(msg.content.toLowerCase() === '/role';
             message.member.addRole(Officer);
             message.delete(100);
 	    message.author.send('Thank you for becoming an officer! Remember: becoming an Officer means that you agree with FBIs (Fortnite Bad Idiot) opinion that **Fortnite is bad**. If you do not agree with this opinion, please leave the server. Thank you!');
