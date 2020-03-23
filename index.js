@@ -31,7 +31,9 @@ bot.on('message', message=>{
 
     switch (args[0]){
         case 'googlefunny':
+	    message.channel.startTyping();
             image(message);
+	    message.channel.stopTyping();
             break;
         case 'cheeseburger':
             const attachment = new Attachment('https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Cheeseburger.jpg')
