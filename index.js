@@ -6,8 +6,6 @@ const cheerio = require('cheerio');
 
 const request = require('request');
 
-const token = 'NjI1MTIxNzAzNTM3OTM0MzQ2.XYa8OA.TwVDIbrlSHu-qrzuyLXCzoAH_Jg';
-
 const PREFIX = '/';
 
 const Officer = '621836926256807966';
