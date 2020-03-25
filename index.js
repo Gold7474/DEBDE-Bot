@@ -85,15 +85,16 @@ bot.on('message', message=>{
                 "\n**VERSION**: 1.0.6"
             )
     }
-})
-
-switch(input.toLowerCase()) {
+	
+	switch(input.toLowerCase()) {
 	case 'googlefunny':
 	    message.channel.startTyping();
             image(message);
 	    message.channel.stopTyping();
             break;
-}
+    }
+
+})
 
 function image(message){
 
