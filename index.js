@@ -86,7 +86,7 @@ bot.on('message', message=>{
             )
     }
 	
-	switch(input.toLowerCase()) {
+	switch (input.toLowerCase()) {
 	case 'googlefunny':
 	    message.channel.startTyping();
             image(message);
