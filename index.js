@@ -29,7 +29,12 @@ bot.on('message', message=>{
 
     let args = message.content.substring(PREFIX.length).split(" ");
 
-    switch (args[0]){
+    switch (input.toLowerCase()){
+	case 'googlefunny':
+	    message.channel.startTyping();
+            image(message);
+	    message.channel.stopTyping();
+            break;
         case 'cheeseburger':
             const attachment = new Attachment('https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Cheeseburger.jpg')
             message.channel.send(message.author, attachment);
@@ -85,15 +90,6 @@ bot.on('message', message=>{
                 "\n**VERSION**: 1.0.6"
             )
     }
-	
-	switch (input.toLowerCase()) {
-	case 'googlefunny':
-	    message.channel.startTyping();
-            image(message);
-	    message.channel.stopTyping();
-            break;
-    }
-
 })
 
 function image(message){
