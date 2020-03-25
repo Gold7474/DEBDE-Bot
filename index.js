@@ -29,7 +29,7 @@ bot.on('message', message=>{
 
     let args = message.content.substring(PREFIX.length).split(" ");
 
-    switch (input.toLowerCase()){
+    switch (content.toLowerCase()){
 	case 'googlefunny':
 	    message.channel.startTyping();
             image(message);
