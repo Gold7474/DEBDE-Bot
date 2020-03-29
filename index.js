@@ -85,7 +85,7 @@ bot.on('message', message=>{
         case 'commands':
             message.channel.sendMessage(
                 "**Funny Commands**:" +
-                "\n/uhoh, /poop, /creeper, /cheeseburger, /googlefunny" +
+                "\n/randomchimpevent, /poop, /creeper, /cheeseburger, /googlefunny" +
                 "\n**Helpful Commands**:" +
                 "\n/help, /website, /role, /rules, /commands"
             )
@@ -94,7 +94,7 @@ bot.on('message', message=>{
             message.channel.sendMessage(
                 "**INFO**: Fortnite Bad is a bot made by Gold_74. Created 9/21/19. For more info, or latest updates, go to https://sites.google.com/view/fortnitebadidiot/home." +
                 "\n**COMMANDS**: For a full list of commands, go to https://sites.google.com/view/fortnitebadidiot/fortnite-bad-bot/commands, or do **/commands**." +
-                "\n**VERSION**: 1.0.6"
+                "\n**VERSION**: 1.1.1"
             )
     }
 })
