@@ -44,7 +44,7 @@ bot.on('message', message=>{
             message.channel.send(message.author, attachment2)
             break;
         case 'randomchimpevent':
-            var chance = Math.floor(Math.random() * 1500)
+            var chance = Math.floor(Math.random() * 5000)
 	    if(chance == 0) {
 	    message.channel.send("@everyone RANDOM CHIMP EVENT! :monkey_face: :monkey_face: :monkey_face:")
 	    } else {
