@@ -64,12 +64,12 @@ bot.on('message', message=>{
         case 'role':
             message.member.addRole(Officer);
             message.delete(100);
-	    message.author.send('Thank you for becoming an officer! Remember: becoming an Officer means that you agree with FBIs (Fortnite Bad Idiot) opinion that **Fortnite is bad**. If you do not agree with this opinion, please leave the server. Thank you!');
+	    message.author.send('Thank you for becoming an officer! Remember: becoming an Officer means that you agree with FBIs opinion that **Fortnite is bad**. If you do not agree with this opinion, please leave the server.');
             break;
 	case 'ROLE':
             message.member.addRole(Officer);
             message.delete(100);
-	    message.author.send('Thank you for becoming an officer! Remember: becoming an Officer means that you agree with FBIs (Fortnite Bad Idiot) opinion that **Fortnite is bad**. If you do not agree with this opinion, please leave the server. Thank you!');
+	    message.author.send('Thank you for becoming an officer! Remember: becoming an Officer means that you agree with FBIs opinion that **Fortnite is bad**. If you do not agree with this opinion, please leave the server.');
             break;
         case 'website':
             message.author.send('FBIs website: https://sites.google.com/view/fortnitebadidiot/home');
