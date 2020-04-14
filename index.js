@@ -106,7 +106,7 @@ bot.on('message', message=>{
 function image(message){
 
         var options = {
-            url: "http://results.dogpile.com/serp?qc=images&q=" + "r/chonkers",
+            url: "http://results.dogpile.com/serp?qc=images&q=" + "poop",
             method: "GET",
             headers: {
                 "Accept": "text/html",
