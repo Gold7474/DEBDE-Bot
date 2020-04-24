@@ -20,7 +20,7 @@ bot.on('guildMemberAdd', member =>{
 	const channel = member.guild.channels.find(channel => channel.name === "new-fbi-members");
 	if(!channel) return;
 
-	channel.send(`Welcome ${member} to the FBI Discord server! To get full access to the server, go to #verification and type **/role**!`)
+	channel.send(`Welcome ${member} to the FBI Discord server! To get full access to the server, go to #verification and type **/verify**!`)
 });
 
 bot.on('message', message=>{
@@ -61,12 +61,12 @@ bot.on('message', message=>{
             message.channel.sendMessage('back at it again with the white vans');
             break;
         //"role" is only for the FBI discord server
-        case 'role':
+        case 'verify':
             message.member.addRole(Officer);
             message.delete(100);
 	    message.author.send('Thank you for becoming an officer! Remember: becoming an Officer means that you agree with FBIs opinion that **Fortnite is bad**. If you do not agree with this opinion, please leave the server.');
             break;
-	case 'ROLE':
+	case 'VERIFY':
             message.member.addRole(Officer);
             message.delete(100);
 	    message.author.send('Thank you for becoming an officer! Remember: becoming an Officer means that you agree with FBIs opinion that **Fortnite is bad**. If you do not agree with this opinion, please leave the server.');
@@ -90,15 +90,15 @@ bot.on('message', message=>{
                 "**Funny Commands**:" +
                 "\n/randomchimpevent, /poop, /creeper, /cheeseburger, /googlefunny" +
                 "\n**Helpful Commands**:" +
-                "\n/help, /website, /role, /rules, /commands" +
-		"\n**/role** and **/rules** are commands only for the FBI discord server."
+                "\n/help, /website, /verify, /rules, /commands" +
+		"\n**/verify** and **/rules** are commands only for the FBI discord server."
             )
             break;
         case 'help':
             message.channel.sendMessage(
                 "**INFO**: Fortnite Bad is a bot made by Gold_74. Created 9/21/19. For more info, or latest updates, go to https://sites.google.com/view/fortnitebadidiot/home." +
                 "\n**COMMANDS**: For a full list of commands, go to https://sites.google.com/view/fortnitebadidiot/fortnite-bad-bot/commands, or do **/commands**." +
-                "\n**VERSION**: 1.1.1"
+                "\n**VERSION**: 1.1.2"
             )
     }
 })
