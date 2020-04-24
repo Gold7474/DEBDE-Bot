@@ -91,7 +91,7 @@ bot.on('message', message=>{
                 "\n/randomchimpevent, /poop, /creeper, /cheeseburger, /googlefunny" +
                 "\n**Helpful Commands**:" +
                 "\n/help, /website, /verify, /rules, /commands" +
-		"\n**/verify** and **/rules** are commands only for the FBI discord server."
+		"\n**/verify** and **/rules** are commands only for the **FBI discord server**."
             )
             break;
         case 'help':
