@@ -52,7 +52,7 @@ bot.on('message', message=>{
 	    }
 	    break;
 	case 'randomchimpeventodds':
-	    message.channel.sendMessage("The odds for the random chimp event is 1 in **2437**");
+	    message.channel.sendMessage("The odds for the Random Chimp Rvent is: **1** in **2437**");
             break;
         case 'poop':
             message.channel.sendMessage('funny');
