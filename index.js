@@ -50,6 +50,9 @@ bot.on('message', message=>{
 	    } else {
   	    message.channel.send("No random chimp event")
 	    }
+	    break;
+	case 'randomchimpeventodds':
+	    message.channel.sendMessage("The odds for the random chimp event is 1 in **2437**");
             break;
         case 'poop':
             message.channel.sendMessage('funny');
