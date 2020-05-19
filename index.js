@@ -17,7 +17,7 @@ bot.on('ready', () =>{
 
 bot.on('guildMemberAdd', member =>{
 	
-	const channel = member.guild.channels.find(channel => channel.name === "new-fbi-members", "funny-folder-mebmbers");
+	const channel = member.guild.channels.find(channel => channel.name === "new-fbi-members", "funny-folder-members");
 	if(!channel) return;
 
 	channel.send(`Welcome ${member} to the FBI Discord server! To get full access to the server, go to #verification and type **/verify**!`)
