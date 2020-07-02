@@ -17,10 +17,10 @@ bot.on('ready', () =>{
 
 bot.on('guildMemberAdd', member =>{
 	
-	const channel = member.guild.channels.find(channel => channel.name === "new-fbi-members");
+	const channel = member.guild.channels.find(channel => channel.name === "new-members");
 	if(!channel) return;
 
-	channel.send(`Welcome ${member} to the FBI Discord server! To get full access to the server, go to #verification and type **/verify**!`)
+	channel.send(`Welcome ${member} to the 'These Games Are...' Discord server! To get full access to the server, go to #verification and type **/verify**!`)
 });
 
 bot.on('message', message=>{
@@ -72,20 +72,17 @@ bot.on('message', message=>{
 	case 'VERIFY':
             message.member.addRole(Officer);
             message.delete(100);
-	    message.author.send('Thank you for becoming an officer! Remember: becoming an Officer means that you agree with FBIs opinion that **Fortnite is bad**. If you do not agree with this opinion, please leave the server.');
+	    message.author.send('Thank you for becoming an officer! Becoming an Officer grants you access to the full server. Make sure to follow the rules (if you need to review the rules, type **/rules**)!');
             break;
         case 'website':
-            message.author.send('FBIs website: https://sites.google.com/view/fortnitebadidiot/home');
+            message.author.send('The website is currently down. :cry:');
             break;
         case 'rules':
             message.author.send(
-                "**These rules apply to the FBI Discord Server**" +
+                "**These rules apply to the 'These Games Are...' Discord server**" +
                 "\n1. Keep the chat semi-appropriate (no NSFW)." +
                 "\n2. Please don't spam @everyone (or admins), unless it is important." +
                 "\n3. Do not scream, spam, or generally annoy anyone in text/voice chats." +
-                "\n4. The #verification channel is for '/role', so don't use it to send other messages." +
-                "\n5. Keep Fortnite bad." +
-                "\nFor more info, you can check the FBI website at: https://sites.google.com/view/fortnitebadidiot/home."
             )
             break;
         case 'commands':
