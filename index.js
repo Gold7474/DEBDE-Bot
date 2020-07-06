@@ -63,7 +63,7 @@ bot.on('message', message=>{
         case 'damndaniel':
             message.channel.sendMessage('back at it again with the white vans');
             break;
-        //"role" is only for the FBI discord server
+        //"verify" is only for the DEBDE discord server
         case 'verify':
             message.member.addRole(Officer);
             message.delete(100);
@@ -72,7 +72,7 @@ bot.on('message', message=>{
 	case 'VERIFY':
             message.member.addRole(Officer);
             message.delete(100);
-	    message.author.send('Thank you for becoming an officer! Becoming an Officer grants you access to the full server. Make sure to follow the rules (if you need to review the rules, type **/rules**)!');
+	    message.author.send('Thank you for becoming a DEBDE officer. Make sure to review the rules of the server by doing /rules in the "#bot-commands" text channel');
             break;
         case 'website':
             message.author.send('The website is currently down. :cry:');
@@ -96,9 +96,9 @@ bot.on('message', message=>{
             break;
         case 'help':
             message.channel.sendMessage(
-                "**INFO**: Fortnite Bad is a bot made by Gold_74. Created 9/21/19. For more info, or latest updates, go to https://sites.google.com/view/fortnitebadidiot/home." +
-                "\n**COMMANDS**: For a full list of commands, go to https://sites.google.com/view/fortnitebadidiot/fortnite-bad-bot/commands, or do **/commands**." +
-                "\n**VERSION**: 1.1.2"
+                "**INFO**: The DEBDE bot was made my Gold_74.
+                "\n**COMMANDS**: For a full list of commands, type **/commands**." +
+                "\n**VERSION**: 1.0.2
             )
     }
 })
