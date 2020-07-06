@@ -20,7 +20,7 @@ bot.on('guildMemberAdd', member =>{
 	const channel = member.guild.channels.find(channel => channel.name === "new-members");
 	if(!channel) return;
 
-	channel.send(`Welcome ${member} to the 'These Games Are...' Discord server! To get full access to the server, go to #verification and type **/verify**!`)
+	channel.send(`Welcome ${member} to the DEBDE Discord server! To get full access to the server, go to #verification and type **/verify**!`)
 });
 
 bot.on('message', message=>{
@@ -67,7 +67,7 @@ bot.on('message', message=>{
         case 'verify':
             message.member.addRole(Officer);
             message.delete(100);
-	    message.author.send('Thank you for becoming an officer! Remember: becoming an Officer means that you agree with FBIs opinion that **Fortnite is bad**. If you do not agree with this opinion, please leave the server.');
+	    message.author.send('Thank you for becoming a DEBDE officer. Make sure to review the rules of the server by doing /rules in the "#bot-commands" text channel');
             break;
 	case 'VERIFY':
             message.member.addRole(Officer);
@@ -79,7 +79,7 @@ bot.on('message', message=>{
             break;
         case 'rules':
             message.author.send(
-                "**These rules apply to the 'These Games Are...' Discord server**" +
+                "**These rules apply to the 'DEBDE' Discord server**" +
                 "\nKeep the chat semi-appropriate (no NSFW)." +
                 "\nPlease don't spam @everyone (or admins), unless it is important." +
                 "\nDo not scream, spam, or generally annoy anyone in text/voice chats."
