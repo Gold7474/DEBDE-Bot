@@ -141,5 +141,4 @@ function image(message){
 
     }
 
-
 bot.login(process.env.token);
