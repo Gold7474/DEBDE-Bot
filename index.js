@@ -81,7 +81,7 @@ bot.on('message', message=>{
             break;
         case 'rules':
             message.author.send(
-                "**These rules apply to the 'DEBDE' Discord server**" +
+                "**These rules apply to the **DEBDE** Discord server**" +
                 "\nKeep the chat semi-appropriate (no NSFW)." +
                 "\nPlease don't spam @everyone (or admins), unless it is important." +
                 "\nDo not scream, spam, or generally annoy anyone in text/voice chats."
@@ -100,7 +100,7 @@ bot.on('message', message=>{
             message.channel.sendMessage(
                 "**INFO**: The DEBDE bot was made my Gold_74." +
                 "\n**COMMANDS**: For a full list of commands, type **/commands**." +
-                "\n**VERSION**: 1.0.2
+                "\n**VERSION**: 1.0.2"
             )
     }
 })
