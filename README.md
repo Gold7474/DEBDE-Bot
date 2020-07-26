@@ -1,2 +1,2 @@
 # DEBDE-Bot
- dat epic bruh doe entertainment bot
+ Dat Epic Bruh Doe Entertainment bot
