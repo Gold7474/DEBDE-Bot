@@ -30,7 +30,7 @@ bot.on('message', message=>{
     let args = message.content.substring(PREFIX.length).split(" ");
 
     switch (args[0]){
-	case 'googlefunny':
+	case 'funny':
 	    message.channel.startTyping();
             image(message);
 	    message.channel.stopTyping();
@@ -88,7 +88,7 @@ bot.on('message', message=>{
         case 'commands':
             message.channel.sendMessage(
                 "**Funny Commands**:" +
-                "\n/randomchimpevent, /poop, /creeper, /cheeseburger, /googlefunny" +
+                "\n/randomchimpevent, /poop, /creeper, /cheeseburger, /funny" +
                 "\n**Helpful Commands**:" +
                 "\n/help, /website, /verify, /rules, /commands" +
 		"\n**/verify** and **/rules** are commands only for the **DEBDE discord server**."
@@ -98,7 +98,7 @@ bot.on('message', message=>{
             message.channel.sendMessage(
                 "**INFO**: The DEBDE bot was made my Gold_74." +
                 "\n**COMMANDS**: For a full list of commands, type **/commands**." +
-                "\n**VERSION**: 1.0.4"
+                "\n**VERSION**: 1.0.5"
             )
     }
 })
