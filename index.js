@@ -67,12 +67,12 @@ bot.on('message', message=>{
         case 'verify':
             message.member.addRole(Officer);
             message.delete(100);
-	    message.author.send('Thank you for becoming a DEBDE officer. Make sure to review the rules of the server by doing /rules in the "#bot-commands" text channel');
+	    message.author.send('Thank you for becoming a DEBDE officer. Make sure to review the rules of the server by doing /rules in the "#bot-commands" text channel.');
             break;
 	case 'VERIFY':
             message.member.addRole(Officer);
             message.delete(100);
-	    message.author.send('Thank you for becoming a DEBDE officer. Make sure to review the rules of the server by doing /rules in the "#bot-commands" text channel');
+	    message.author.send('Thank you for becoming a DEBDE officer. Make sure to review the rules of the server by doing /rules in the "#bot-commands" text channel.');
             break;
         case 'website':
             message.author.send('The website is currently down. :cry:');
