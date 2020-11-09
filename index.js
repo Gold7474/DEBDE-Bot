@@ -80,9 +80,9 @@ bot.on('message', message=>{
         case 'rules':
             message.channel.sendMessage(
                 "These rules apply to the **DEBDE** and **Gold_74** Discord servers" +
-                "\nKeep the chat semi-appropriate (no NSFW)." +
-                "\nPlease don't spam @everyone (or admins), unless it is important." +
-                "\nDo not scream, spam, or generally annoy anyone in text/voice chats."
+                "\n-Keep the chat semi-appropriate (no NSFW)." +
+                "\n-Please don't spam @everyone (or admins), unless it is important." +
+                "\n-Do not scream, spam, or generally annoy anyone in text/voice chats."
             )
             break;
         case 'commands':
