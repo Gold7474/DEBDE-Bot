@@ -78,7 +78,7 @@ bot.on('message', message=>{
             message.author.send('The website is currently down. :cry:');
             break;
         case 'rules':
-            message.channel.sendMessage(
+            message.author.send(
                 "These rules apply to the **DEBDE** and **Gold_74** Discord servers" +
                 "\n-Keep the chat semi-appropriate (no NSFW)." +
                 "\n-Please don't spam @everyone (or admins), unless it is important." +
