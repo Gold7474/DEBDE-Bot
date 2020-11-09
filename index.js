@@ -90,15 +90,15 @@ bot.on('message', message=>{
                 "**Funny Commands**:" +
                 "\n/randomchimpevent, /poop, /creeper, /cheeseburger, /funny" +
                 "\n**Helpful Commands**:" +
-                "\n/help, /website, /verify, /rules, /commands" +
-		"\n**/verify** and **/rules** are commands only for the **DEBDE discord server**."
+                "\n/help, /website, /verify, /commands" +
+		"\n**/verify** is only for the **DEBDE discord server**."
             )
             break;
         case 'help':
             message.channel.sendMessage(
                 "**INFO**: The DEBDE bot was made my Gold_74." +
                 "\n**COMMANDS**: For a full list of commands, type **/commands**." +
-                "\n**VERSION**: 1.0.5"
+                "\n**VERSION**: 1.0.7"
             )
     }
 })
