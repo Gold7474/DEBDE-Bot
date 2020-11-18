@@ -51,7 +51,18 @@ bot.on('message', message=>{
   	    message.channel.send("No random chimp event")
 	    }
 	    break;
+	case 'rce':
+            var chance = Math.floor(Math.random() * 2437)
+	    if(chance == 0) {
+	    message.channel.send("@everyone RANDOM CHIMP EVENT! :monkey_face: :monkey_face: :monkey_face:")
+	    } else {
+  	    message.channel.send("No random chimp event")
+	    }
+	    break;
 	case 'randomchimpeventodds':
+	    message.channel.sendMessage("The odds for the Random Chimp Event is: **1** in **2437**");
+            break;
+	case 'rceodds':
 	    message.channel.sendMessage("The odds for the Random Chimp Event is: **1** in **2437**");
             break;
         case 'poop':
@@ -88,7 +99,7 @@ bot.on('message', message=>{
         case 'commands':
             message.channel.sendMessage(
                 "**Funny Commands**:" +
-                "\n/randomchimpevent, /poop, /creeper, /cheeseburger, /funny" +
+                "\n/randomchimpevent (or /rce), /poop, /creeper, /cheeseburger, /funny" +
                 "\n**Helpful Commands**:" +
                 "\n/help, /website, /verify, /commands" +
 		"\n**/verify** is only for the **DEBDE discord server**."
@@ -98,7 +109,7 @@ bot.on('message', message=>{
             message.channel.sendMessage(
                 "**INFO**: The DEBDE bot was made my Gold_74." +
                 "\n**COMMANDS**: For a full list of commands, type **/commands**." +
-                "\n**VERSION**: 1.0.7"
+                "\n**VERSION**: 1.0.8"
             )
     }
 })
