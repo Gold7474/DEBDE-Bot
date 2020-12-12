@@ -43,6 +43,10 @@ bot.on('message', message=>{
             const attachment2 = new Attachment('./test.png');
             message.channel.send(message.author, attachment2)
             break;
+	case 'doodoofardy':
+	    const attachment = new Attachment('https://imagez.tmz.com/image/43/1by1/2010/03/26/432ed2d8a6775ff0a4017da53abdf798_xl.jpg')
+	    message.channel.send(message.author, attachment3)
+	    break;
         case 'randomchimpevent':
             var chance = Math.floor(Math.random() * 2437)
 	    if(chance == 0) {
