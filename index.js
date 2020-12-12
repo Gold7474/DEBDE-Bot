@@ -44,7 +44,7 @@ bot.on('message', message=>{
             message.channel.send(message.author, attachment2)
             break;
 	case 'doodoofardy':
-	    const attachment = new Attachment('https://imagez.tmz.com/image/43/1by1/2010/03/26/432ed2d8a6775ff0a4017da53abdf798_xl.jpg')
+	    const attachment3 = new Attachment('https://imagez.tmz.com/image/43/1by1/2010/03/26/432ed2d8a6775ff0a4017da53abdf798_xl.jpg')
 	    message.channel.send(message.author, attachment3)
 	    break;
         case 'randomchimpevent':
