@@ -113,7 +113,7 @@ bot.on('message', message=>{
             message.channel.sendMessage(
                 "**INFO**: The DEBDE bot was made my Gold_74." +
                 "\n**COMMANDS**: For a full list of commands, type **/commands**." +
-                "\n**VERSION**: 1.0.8"
+                "\n**VERSION**: 1.0.9"
             )
     }
 })
