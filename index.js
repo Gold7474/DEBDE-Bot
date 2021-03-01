@@ -108,7 +108,7 @@ bot.on('message', message=>{
         case 'commands':
             message.channel.sendMessage(
                 "**Funny Commands**:" +
-                "\n/randomchimpevent (or /rce), /poop, /creeper, /cheeseburger, /funny" +
+                "\n/randomchimpevent (or /rce), /poop, /creeper, /cheeseburger, /doodoofardy, /funny, /unfunny" +
                 "\n**Helpful Commands**:" +
                 "\n/help, /website, /verify, /commands" +
 		"\n**/verify** is only for the **DEBDE discord server**."
