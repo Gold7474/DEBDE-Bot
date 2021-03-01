@@ -31,7 +31,7 @@ bot.on('message', message=>{
 
     switch (args[0]){
 	case 'funny':
-	    var facts = ["https://cdn.discordapp.com/attachments/783483447191928873/783484025796558858/negahomer.mov", "https://cdn.discordapp.com/attachments/783483447191928873/785627814288031804/b8y98by9y9bby9.mp4", "https://cdn.discordapp.com/attachments/783483447191928873/785627855681355826/52fa77dbf743687fbacf6881e1a3aeaa05647af1ed6aeb551e7447dc19444042_1.mp4"];
+	    var facts = ["https://cdn.discordapp.com/attachments/783483447191928873/783484025796558858/negahomer.mov", "https://cdn.discordapp.com/attachments/783483447191928873/785627814288031804/b8y98by9y9bby9.mp4", "https://cdn.discordapp.com/attachments/783483447191928873/785627855681355826/52fa77dbf743687fbacf6881e1a3aeaa05647af1ed6aeb551e7447dc19444042_1.mp4", "https://cdn.discordapp.com/attachments/783483447191928873/785627877139021824/s22ss232s2ss2.mp4", "https://cdn.discordapp.com/attachments/783483447191928873/785627889689165834/765d654d5432w.mp4", "https://cdn.discordapp.com/attachments/783483447191928873/785627902255300628/5ff475676f54675f.mov", "https://cdn.discordapp.com/attachments/783483447191928873/785627912958640148/thesenuts.mp4", "https://cdn.discordapp.com/attachments/783483447191928873/785627930025787412/3oy5jyoj35yj5i.webm", "https://cdn.discordapp.com/attachments/783483447191928873/785627979833016390/llolololohuhyg766g.mp4"];
 	    var fact = Math.floor(Math.random() * facts.length);
 	    message.channel.send(facts[fact]);
             break;
