@@ -31,7 +31,7 @@ bot.on('message', message=>{
 
     switch (args[0]){
 	case 'funny':
-	    var facts = ["fart", "doodoo", "pee"];
+	    var facts = ["https://cdn.discordapp.com/attachments/783483447191928873/783484025796558858/negahomer.mov", "https://cdn.discordapp.com/attachments/783483447191928873/785627814288031804/b8y98by9y9bby9.mp4", "https://cdn.discordapp.com/attachments/783483447191928873/785627855681355826/52fa77dbf743687fbacf6881e1a3aeaa05647af1ed6aeb551e7447dc19444042_1.mp4"];
 	    var fact = Math.floor(Math.random() * facts.length);
 	    message.channel.send(facts[fact]);
             break;
