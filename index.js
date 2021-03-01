@@ -31,6 +31,11 @@ bot.on('message', message=>{
 
     switch (args[0]){
 	case 'funny':
+	    var facts = ["fart", "doodoo", "pee"];
+	    var fact = Math.floor(Math.random() * facts.length);
+	    message.channel.send(facts[fact]);
+            break;
+	case 'unfunny':
 	    message.channel.startTyping();
             image(message);
 	    message.channel.stopTyping();
