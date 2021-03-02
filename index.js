@@ -120,8 +120,7 @@ bot.on('message', message=>{
                 "**Funny Commands**:" +
                 "\n/randomchimpevent (or /rce), /poop, /creeper, /cheeseburger, /doodoofardy, /funny, /funny1, /funny2, /unfunny" +
                 "\n**Helpful Commands**:" +
-                "\n/commands, /funnyhelp, /help, /verify, /website" +
-		"\n**/verify** is only for the **DEBDE discord server**."
+                "\n/commands, /funnyhelp, /help, /website"
             )
             break;
         case 'help':
