@@ -31,7 +31,7 @@ bot.on('message', message=>{
 
     switch (args[0]){
 	    case 'funny':
-		    message.channel = client.channels.cache.get(712165479594065953);
+		    const channel = client.channels.cache.get(712165479594065953)
 		    const randomMsg = channel.messages.cache.random(1);
 		    message.channel.send(`"${randomMsg.content}"`);
 		    break;
