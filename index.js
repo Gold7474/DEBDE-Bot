@@ -126,9 +126,9 @@ bot.on('message', message=>{
             break;
         case 'help':
             message.channel.sendMessage(
-                "**INFO**: The DEBDE bot was made my Gold_74." +
+                "**INFO**: The DEBDE bot was made my Gold_74 with additional help from MinecraftMan." +
                 "\n**COMMANDS**: For a full list of commands, type **/commands**." +
-                "\n**VERSION**: 1.1.2"
+                "\n**VERSION**: 1.1.3"
             )
 	    break;
 	    case 'funnyhelp':
