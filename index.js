@@ -31,9 +31,9 @@ bot.on('message', message=>{
 
     switch (args[0]){
 	    case 'funny':
-		    const channel = client.channels.cache.get(712165479594065953) // you can use `message.channel` instead of this variable if you want to get the message from the channel you send the command
-		    const randomMsg = channel.messages.cache.random(1)
-		    message.channel.send(`"${randomMsg.content}"`)
+		    const channel = client.channels.cache.get(712165479594065953);
+		    const randomMsg = channel.messages.cache.random(1);
+		    message.channel.send(`"${randomMsg.content}"`);
 		    break;
 	case 'funny1':
 	    var facts = ["https://cdn.discordapp.com/attachments/712165479594065953/712170877600661564/0Ai5_mVGCzw5Tp_G.mp4", "https://cdn.discordapp.com/attachments/712165479594065953/712170899519832105/0CAB867C-CA4B-4220-8161-275921FC8842_1.mov", "https://cdn.discordapp.com/attachments/712165479594065953/712170918021169242/0EfwTyTcCsCWzzU3.mp4", "https://cdn.discordapp.com/attachments/712165479594065953/712170931488817155/1u2iZaUtsphjBOXy.mp4", "https://cdn.discordapp.com/attachments/712165479594065953/712170950707118181/2e53a0a6dd0b0d653330464c7236f27e.mp4", "https://cdn.discordapp.com/attachments/712165479594065953/712170969858310204/3ca78bed429673346d997f73e0b77b89.mp4"];
