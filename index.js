@@ -136,7 +136,7 @@ bot.on('message', message=>{
                 "**/funny** finds a random video from the entirety of Gold_74's *Funny Folder* and sends it into the chat." +
                 "\n**/funny1** finds a random video from season 1 of Gold74's *Funny Folder* and sends it into the chat." +
 		"\n**/funny2** finds a random video from season 1 of Gold74's *Funny Folder* and sends it into the chat." +
-                "\n**/unfunny** searches for and finds an image from Google Images and sends it into the chat. Usually it is unfunny." +
+                "\n**/unfunny** searches for and finds an image from Google Images and sends it into the chat. Usually it is unfunny."
             )
     }
 })
