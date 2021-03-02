@@ -31,7 +31,7 @@ bot.on('message', message=>{
 
     switch (args[0]){
 	    case 'funny':
-		var facts = ["Not ready yet."];
+		var facts = ["Command isn't ready yet."];
 		var fact = Math.floor(Math.random() * facts.length);
 		message.channel.send(facts[fact]);
             break;
@@ -118,9 +118,9 @@ bot.on('message', message=>{
         case 'commands':
             message.channel.sendMessage(
                 "**Funny Commands**:" +
-                "\n/randomchimpevent (or /rce), /poop, /creeper, /cheeseburger, /doodoofardy, /funny, /unfunny" +
+                "\n/randomchimpevent (or /rce), /poop, /creeper, /cheeseburger, /doodoofardy, /funny, /funny1, /funny2, /unfunny" +
                 "\n**Helpful Commands**:" +
-                "\n/help, /website, /verify, /commands" +
+                "\n/commands, /funnyhelp, /help, /verify, /website" +
 		"\n**/verify** is only for the **DEBDE discord server**."
             )
             break;
@@ -128,7 +128,15 @@ bot.on('message', message=>{
             message.channel.sendMessage(
                 "**INFO**: The DEBDE bot was made my Gold_74." +
                 "\n**COMMANDS**: For a full list of commands, type **/commands**." +
-                "\n**VERSION**: 1.1.1"
+                "\n**VERSION**: 1.1.2"
+            )
+	    break;
+	    case 'funnyhelp':
+		    message.channel.sendMessage(
+                "**/funny** finds a random video from the entirety of Gold_74's *Funny Folder* and sends it into the chat." +
+                "\n**/funny1** finds a random video from season 1 of Gold74's *Funny Folder* and sends it into the chat." +
+		"\n**/funny2** finds a random video from season 1 of Gold74's *Funny Folder* and sends it into the chat." +
+                "\n**/unfunny** searches for and finds an image from Google Images and sends it into the chat. Usually it is unfunny." +
             )
     }
 })
