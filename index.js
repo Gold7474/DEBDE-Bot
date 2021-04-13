@@ -6,7 +6,7 @@ const cheerio = require('cheerio');
 
 const request = require('request');
 
-const PREFIX = '/';
+const PREFIX = '-';
 
 const Officer = '621836926256807966';
 
@@ -85,6 +85,9 @@ bot.on('message', message=>{
 	case 'rceodds':
 	    message.channel.sendMessage("The odds for the Random Chimp Event is: **1** in **2437**");
             break;
+	case 'leave':
+		message.channel.sendMessage("-p alvin chipmunks 24k magic");
+		break;
         case 'poop':
             message.channel.sendMessage('funny');
             break;
