@@ -99,7 +99,7 @@ bot.on('message', message=>{
 	case 'VERIFY':
             message.member.addRole(Officer);
             message.delete(100);
-	    message.author.send('Thank you for becoming a member of DEBDE. Make sure to review the rules of the server by doing /rules in the "#bot-commands" text channel.');
+	    message.author.send('Thank you for becoming a member of DEBDE. Make sure to review the rules of the server either by looking in #news or typing "/rules" in #bot-commands.');
             break;
         case 'website':
             message.author.send('The website is currently down. :cry:');
