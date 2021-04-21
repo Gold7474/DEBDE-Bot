@@ -64,14 +64,7 @@ bot.on('message', message=>{
 	    message.channel.send(message.author, attachment3)
 	    break;
         case 'randomchimpevent':
-            var chance = Math.floor(Math.random() * 2437)
-	    if(chance == 0) {
-	    message.channel.send("@everyone RANDOM CHIMP EVENT! :monkey_face: :monkey_face: :monkey_face:")
-	    } else {
-  	    message.channel.send("No random chimp event")
-	    }
-	    break;
-	case 'rce':
+	    case 'rce':
             var chance = Math.floor(Math.random() * 2437)
 	    if(chance == 0) {
 	    message.channel.send("@everyone RANDOM CHIMP EVENT! :monkey_face: :monkey_face: :monkey_face:")
@@ -80,8 +73,6 @@ bot.on('message', message=>{
 	    }
 	    break;
 	case 'randomchimpeventodds':
-	    message.channel.sendMessage("The odds for the Random Chimp Event is: **1** in **2437**");
-            break;
 	case 'rceodds':
 	    message.channel.sendMessage("The odds for the Random Chimp Event is: **1** in **2437**");
             break;
@@ -124,7 +115,7 @@ bot.on('message', message=>{
             message.channel.sendMessage(
                 "**INFO**: The DEBDE bot was made my Gold_74 with additional help from MinecraftMan." +
                 "\n**COMMANDS**: For a full list of commands, type **/commands**." +
-                "\n**VERSION**: 1.1.6"
+                "\n**VERSION**: 1.2.0"
             )
 	    break;
 	    case 'funnyhelp':
