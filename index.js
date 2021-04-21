@@ -64,9 +64,9 @@ bot.on('message', message=>{
 	    message.channel.send(message.author, attachment3)
 	    break;
 	case 'randomchimpevent':
-	case 'RANDOMCHIMPEVENT':
-	case 'rce':
-	case 'RCE':
+	    case 'RANDOMCHIMPEVENT':
+	    case 'rce':
+	    case 'RCE':
             var chance = Math.floor(Math.random() * 2437)
 	    if(chance == 0) {
 	    message.channel.send("@everyone RANDOM CHIMP EVENT! :monkey_face: :monkey_face: :monkey_face:")
@@ -75,9 +75,9 @@ bot.on('message', message=>{
 	    }
 	    break;
 	case 'randomchimpeventodds':
-	case 'RANDOMCHIMPEVENTODDS':
-	case 'rceodds':
-	case 'RCEODDS':
+	    case 'RANDOMCHIMPEVENTODDS':
+	    case 'rceodds':
+	    case 'RCEODDS':
 	    message.channel.sendMessage("The odds for the Random Chimp Event is: **1** in **2437**");
             break;
         case 'poop':
@@ -91,7 +91,7 @@ bot.on('message', message=>{
             break;
         //"verify" is only for the DEBDE Discord server
         case 'verify':
-	case 'VERIFY':
+	    case 'VERIFY':
             message.member.addRole(Officer);
             message.delete(100);
 	    message.author.send('Thank you for becoming a member of DEBDE. Make sure to review the rules of the server either by looking in #news or typing "/rules" in #bot-commands.');
@@ -100,7 +100,7 @@ bot.on('message', message=>{
             message.author.send('https://sites.google.com/view/gold-74/');
             break;
         case 'rules':
-	case 'RULES':
+	    case 'RULES':
             message.author.send(
                 "These rules apply to the **DEBDE** and **Gold_74** Discord servers" +
                 "\n-Keep the chat semi-appropriate (no NSFW)." +
@@ -118,11 +118,11 @@ bot.on('message', message=>{
             )
             break;
         case 'help':
-	case 'HELP':
+	    case 'HELP':
             message.channel.sendMessage(
                 "**INFO**: The DEBDE bot was made my Gold_74 with additional help from MinecraftMan." +
                 "\n**COMMANDS**: For a full list of commands, type **/commands**." +
-                "\n**VERSION**: 1.2.1
+                "\n**VERSION**: 1.2.1"
             )
 	    break;
 	    case 'funnyhelp':
