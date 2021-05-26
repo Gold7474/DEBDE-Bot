@@ -47,7 +47,7 @@ bot.on('message', message=>{
 		var fact = Math.floor(Math.random() * facts2.length);
 		message.channel.send(facts2[fact]);
             break;
-	case 'funnybestof':
+	case 'funny3':
 		var fact = Math.floor(Math.random() * facts3.length);
 		message.channel.send(facts3[fact]);
             break;
