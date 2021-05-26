@@ -20,7 +20,7 @@ bot.on('ready', () =>{
     bot.user.setActivity('/help', { type: 'LISTENING'})
 })
 
-bot.on('guildMemberAdd', member =>{
+bot.on('guildMemberAdd', (guild, member) =>{
 	
 	const channel = member.guild.channels.find(channel => channel.name === "new-members");
 	if(!channel) return;
