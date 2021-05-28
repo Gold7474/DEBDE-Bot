@@ -94,7 +94,7 @@ bot.on('message', message=>{
         case 'damndaniel':
             message.channel.sendMessage('back at it again with the white vans');
             break;
-        //"verify" is only for the DEBDE Discord server
+        //"verify" is only meant for the DEBDE Discord server
         case 'verify':
 	    case 'VERIFY':
             message.member.addRole(Member);
