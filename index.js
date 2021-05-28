@@ -83,16 +83,16 @@ bot.on('message', message=>{
 	    case 'RANDOMCHIMPEVENTODDS':
 	    case 'rceodds':
 	    case 'RCEODDS':
-	    message.channel.sendMessage("The odds for the Random Chimp Event is: **1** in **2437**");
+	    message.channel.send("The odds for the Random Chimp Event is: **1** in **2437**");
             break;
         case 'poop':
-            message.channel.sendMessage('funny');
+            message.channel.send('funny');
             break;
         case 'creeper':
-            message.channel.sendMessage('shut up');
+            message.channel.send('shut up');
             break;
         case 'damndaniel':
-            message.channel.sendMessage('back at it again with the white vans');
+            message.channel.send('back at it again with the white vans');
             break;
         //"verify" is only meant for the DEBDE Discord server
         case 'verify':
@@ -115,7 +115,7 @@ bot.on('message', message=>{
             break;
         case 'commands':
 	    case 'COMMANDS':
-            message.channel.sendMessage(
+            message.channel.send(
                 "**Epic commands**:" +
                 "\n/randomchimpevent (or /rce), /poop, /creeper, /cheeseburger, /doodoofardy, /funny, /funny1, /funny2, /funnybest, /unfunny" +
                 "\n**Helpful Commands**:" +
@@ -124,14 +124,14 @@ bot.on('message', message=>{
             break;
         case 'help':
 	    case 'HELP':
-            message.channel.sendMessage(
+            message.channel.send(
                 "**INFO**: The DEBDE bot was made my Gold_74 with additional help from MinecraftMan." +
                 "\n**COMMANDS**: For a full list of commands, type **/commands**." +
                 "\n**VERSION**: 1.3.0"
             )
 	    break;
 	    case 'funnyhelp':
-		    message.channel.sendMessage(
+		    message.channel.send(
                 "**/funny** finds a random video from the entirety of Gold_74's *Funny Folder* and sends it into the chat." +
                 "\n**/funny1** finds a random video from season 1 of Gold74's *Funny Folder* and sends it into the chat." +
 		"\n**/funny2** finds a random video from season 2 of Gold74's *Funny Folder* and sends it into the chat." +
