@@ -47,7 +47,7 @@ bot.on('message', message=>{
 		var fact = Math.floor(Math.random() * facts2.length);
 		message.channel.send(facts2[fact]);
             break;
-	case 'funnybestof':
+	case 'funnybest':
 		var fact = Math.floor(Math.random() * facts3.length);
 		message.channel.send(facts3[fact]);
             break;
@@ -135,7 +135,7 @@ bot.on('message', message=>{
                 "**/funny** finds a random video from the entirety of Gold_74's *Funny Folder* and sends it into the chat." +
                 "\n**/funny1** finds a random video from season 1 of Gold74's *Funny Folder* and sends it into the chat." +
 		"\n**/funny2** finds a random video from season 2 of Gold74's *Funny Folder* and sends it into the chat." +
-		"\n**funnybestof** finds a random video from the Best Of section of the *Funny Folder* and sends it into the chat." +
+		"\n**funnybest** finds a random video from the Best Of section of the *Funny Folder* and sends it into the chat." +
                 "\n**/unfunny** searches for and finds an image from Google Images and sends it into the chat. Usually it is unfunny."
             )
     }
