@@ -122,7 +122,7 @@ bot.on('message', message=>{
         case 'commands':
 	    case 'COMMANDS':
             message.channel.send(
-                "**Epic commands**:" +
+                "**Epic Commands**:" +
                 "\n/randomchimpevent (or /rce), /poop, /creeper, /cheeseburger, /doodoofardy, /funny, /funny1, /funny2, /funnybest, /unfunny" +
                 "\n**Helpful Commands**:" +
                 "\n/commands, /funnyhelp, /help, /website"
