@@ -62,7 +62,7 @@ bot.on('message', message=>{
 	    	message.channel.stopTyping();
             break;
         case 'cheeseburger':
-            const attachment = new Attachment('https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Cheeseburger.jpg')
+            const attachment = new Attachment('./cheeseburger.jpg');
             message.channel.send(message.author, attachment);
             break;
         case 'localfile':
