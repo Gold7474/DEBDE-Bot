@@ -1,6 +1,7 @@
 const { Client, Intents, Attachments, Discord } = require('discord.js');
-const client = new Discord.Client({ intents: ["GUILDS", "GUILD_MEMBERS", "GUILD_BANS", "GUILD_MESSAGES", "GUILD_MESSAGE_TYPING", "GUILD_MESSAGE_REACTIONS"] });
 const bot = new Discord.Client();
+const client = new Discord.Client({ intents: ["GUILDS", "GUILD_MEMBERS", "GUILD_BANS", "GUILD_MESSAGES", "GUILD_MESSAGE_TYPING", "GUILD_MESSAGE_REACTIONS"] });
+
 
 const cheerio = require('cheerio');
 
