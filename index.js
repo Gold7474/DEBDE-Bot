@@ -1,6 +1,9 @@
 const { Client, Intents, Attachments } = require('discord.js');
+
 const Discord = require('discord.js');
-const client = new Client({ intents: ["GUILDS", "GUILD_MEMBERS", "GUILD_BANS", "GUILD_MESSAGES", "GUILD_MESSAGE_TYPING", "GUILD_MESSAGE_REACTIONS"] });
+
+const client = new Discord.Client({ intents: ["GUILDS", "GUILD_MEMBERS", "GUILD_BANS", "GUILD_MESSAGES", "GUILD_MESSAGE_TYPING", "GUILD_MESSAGE_REACTIONS"] });
+
 const bot = new Discord.Client();
 
 
@@ -190,4 +193,4 @@ function image(message){
 
     }
 
-client.login(TOKEN);
+Client.login(TOKEN);
