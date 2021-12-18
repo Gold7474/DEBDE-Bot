@@ -189,4 +189,4 @@ function image(message){
 
     }
 
-bot.login(process.env.token);
+client.login(token);
