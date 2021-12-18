@@ -1,5 +1,5 @@
 const { Client, Attachment, Intents } = require('discord.js');
-const client = new Client({ Intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES] });
+const client = new Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES] });
 const Discord = require('discord.js');
 const bot = new Discord.Client();
 
@@ -7,7 +7,7 @@ const cheerio = require('cheerio');
 
 const request = require('request');
 
-const PREFIX = '/';
+const PREFIX = '\';
 
 const Member = '621836926256807966';
 
