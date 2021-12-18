@@ -7,7 +7,7 @@ const cheerio = require('cheerio');
 
 const request = require('request');
 
-const PREFIX = '?';
+const PREFIX = '/';
 
 const Member = '621836926256807966';
 
@@ -189,4 +189,4 @@ function image(message){
 
     }
 
-client.login(token);
+client.login(TOKEN);
