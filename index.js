@@ -1,5 +1,5 @@
 const { Client, Attachment, Intents } = require('discord.js');
-const client = new Discord.Client({ intents: ["GUILD_MEMBERS", "GUILD_MEMBER_ADD"] })
+const client = new Discord.Client({ intents: ["GUILD_MEMBERS", "GUILD_MEMBER_ADD"] });
 const Discord = require('discord.js');
 const bot = new Discord.Client();
 
